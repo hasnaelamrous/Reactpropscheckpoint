@@ -1,4 +1,7 @@
 import HakimZiyech from './Images/HakimZiyech.jpg';
+import messi from './Images/messi.jpeg';
+import cristiano from './Images/cristiano.pjpeg';
+import KMbappé from './Images/KMbappé.jpg';
 
 const players = [
   {
@@ -15,7 +18,7 @@ const players = [
     nationality: "Argentina",
     jerseyNumber: 10,
     age: 36,
-    image: HakimZiyech,
+    image: messi,
   },
   {
     name: "Cristiano Ronaldo",
@@ -23,7 +26,7 @@ const players = [
     nationality: "Portugal",
     jerseyNumber: 7,
     age: 39,
-    image: HakimZiyech,
+    image: cristiano,
   },
   {
     name: "Kylian Mbappé",
@@ -31,7 +34,7 @@ const players = [
     nationality: "France",
     jerseyNumber: 7,
     age: 26,
-    image: HakimZiyech,
+    image: KMbappé,
   }
 ];
 
