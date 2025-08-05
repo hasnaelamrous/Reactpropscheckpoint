@@ -4,7 +4,7 @@ import PlayerList from './Components/PlayerList';
 function App() {
   return (
     <div className="App">
-      <h1 className="text-center my-4">FIFA Player Cards</h1>
+      <h1 style={{ color: 'brown' }} className="text-center my-4">FIFA Player Cards</h1>
       <PlayerList />
     </div>
   );

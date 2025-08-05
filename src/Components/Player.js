@@ -12,12 +12,12 @@ const Player = ({ name, team, nationality, jerseyNumber, age, image }) => {
     <Card style={cardStyle}>
       <Card.Img variant="top" src={image} alt={name} style={{ height: '200px', objectFit: 'cover' }}/>
       <Card.Body>
-        <Card.Title>{name}</Card.Title>
-        <Card.Text>
-          <strong>Team:</strong> {team}<br />
-          <strong>Nationality:</strong> {nationality}<br />
-          <strong>Jersey Number:</strong> {jerseyNumber}<br />
-          <strong>Age:</strong> {age}
+        <Card.Title style={{ color: 'brown' }}>{name}</Card.Title>
+        <Card.Text >
+          <strong style={{ color: 'brown' }}>Team:</strong> {team}<br />
+          <strong style={{ color: 'brown' }}>Nationality:</strong> {nationality}<br />
+          <strong style={{ color: 'brown' }}>Jersey Number:</strong> {jerseyNumber}<br />
+          <strong style={{ color: 'brown' }}>Age:</strong> {age}
         </Card.Text>
       </Card.Body>
     </Card>
